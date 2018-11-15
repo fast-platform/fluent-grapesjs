@@ -11,7 +11,7 @@
     "dev": "webpack --progress --colors --watch --env dev"
   },
   "dependencies": {
-    "fast-fluent": "^0.1.5"
+    "fast-fluent": "^0.1.15"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
