@@ -1,11 +1,27 @@
 {
   "name": "fluent-grapesjs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Fluent connector for GrapesJS storage.",
-  "author": "tcastrog10@gmail.com",
-  "main": "lib/fluent-grapesjs.js",
+  "author": "Tomas Castro",
+  "main": "lib/fluent-grapesjs.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fast-platform/fluent-grapesjs.git"
+  },
+  "keywords": [
+    "form.io",
+    "js",
+    "fastjs",
+    "fluent",
+    "grapesjs"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fast-platform/fluent-grapesjs.git/issues"
+  },
+  "homepage": "https://github.com/fast-platform/fluent-grapesjs.git#readme",
   "scripts": {
-    "build": "rm -rf ./build && babel ./src --out-dir ./build",
+    "build": "rm -rf lib/* && webpack --env build",
     "test": "echo \"No test specified\" && exit 0",
     "watch": "rm -rf ./build && babel ./src --watch --out-dir ./build",
     "dev": "webpack --progress --colors --watch --env dev"
