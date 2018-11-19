@@ -1,6 +1,6 @@
 {
   "name": "fluent-grapesjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fluent connector for GrapesJS storage.",
   "author": "Tomas Castro",
   "main": "lib/fluent-grapesjs.min.js",
@@ -27,6 +27,7 @@
     "dev": "webpack --progress --colors --watch --env dev"
   },
   "dependencies": {
+    "fast-fastjs": "^0.5.10",
     "fast-fluent": "^0.1.15"
   },
   "devDependencies": {
